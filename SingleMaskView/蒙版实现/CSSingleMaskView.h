@@ -30,6 +30,11 @@
  */
 - (void)addImage:(UIImage*)image withFrame:(CGRect)frame;
 
+/**
+ *  添加文字(内容，字体位置，字号，字体颜色，位置)
+ *  内容在frame内部自动折行（多行）显示
+ */
+- (void)addText:(NSString *)title withTextAlignment:(NSTextAlignment)textAlignment fontSize:(CGFloat)size textColor:(UIColor *)textColor andFrame:(CGRect)frame;
 
 
 /**   在指定view上显示蒙版（过渡动画）
