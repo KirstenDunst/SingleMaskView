@@ -6,6 +6,9 @@
 //  Copyright © 2018年 宗盛商业. All rights reserved.
 //
 
+//app新功能的引导蒙版样式设置
+
+
 #import <UIKit/UIKit.h>
 
 @interface CSSingleMaskView : UIView
