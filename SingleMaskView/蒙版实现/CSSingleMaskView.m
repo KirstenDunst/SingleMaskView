@@ -62,6 +62,7 @@
 
 - (UIBezierPath *)generateOverlayPath {
     UIBezierPath *overlayPath = [UIBezierPath bezierPathWithRect:self.bounds];
+    //打开剪切、绘图的开关设置。默认情况下是关闭的
     [overlayPath setUsesEvenOddFillRule:YES];
     return overlayPath;
 }
